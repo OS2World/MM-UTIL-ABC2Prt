@@ -1,0 +1,20 @@
+This is the OS/2 port of ABC2Prt, a tool to extract single parts from ABC music files.
+
+I'm interested in porting as many music typesetting tools as possible and ABC seems to be
+a rather famous music format for computers, so there's another little option for OS/2.
+
+To use this program you will need:
+
+- the executable file contained into the os2\ subdirectory, together with the documentation
+
+- ABC files to work on.
+
+Any other thing (sources, makefiles etc.) can be deleted if you don't want to recompile it.
+
+If you find this program useful, please consider making a donation to Paul Smedley: his work
+made GCC 4.5.2 available to us OS/2 developers.
+
+Have fun
+Mentore Siesto
+Pisa, Italy
+mentore.siesto@alice.it

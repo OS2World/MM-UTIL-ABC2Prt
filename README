@@ -1,0 +1,43 @@
+ abc2prt 1.0.2
+---------------
+
+
+abc2prt is a simple tool to extract parts from multivoice ABC music files.
+
+I wrote it because it's often desirable to give singers their own part in
+addition to the complete score. I know that Perl scripts exist that do the
+trick, and Unix users will be happy with them. However, installing Perl on a
+Windows machine for running such a script only is quite an overkill.
+
+abc2prt is a command line tool. Usage is
+
+  $ abc2prt -v voicename [inputfile] [outputfile]
+
+If inputfile and outputfile are not specified, abc2prt will use standard
+input and standard output. An example is
+
+  $ abc2prt -v TII music.abc music-tii.abc
+
+which will output the whole header and all the lines that belong to the
+voice defined as V:TII, including w: lines. Try abc2prt with the enclosed
+file 101best.abc, taken from the jaabc2ps archive
+(http://www.guitarnut.com/abc/index.html).
+
+There can be up to 4 -v switches.
+
+If there's enough request, I'll write a graphical version.
+
+
+ Copyright and Licence
+------------------------
+
+abc2prt is copyright by Guido Gonzato <ggonza@tin.it> 2001-2003,
+and released under the General Public Licence. Multivoice support was
+written by Matthew K. Junker <junker@alum.mit.edu>.
+
+If you find this small program useful, or have bug reports, suggestions,
+or criticism, please drop me a line. abc2prt is very useful to me; I hope
+I've done something useful for other people too.
+
+Enjoy,
+      Guido =8-)
